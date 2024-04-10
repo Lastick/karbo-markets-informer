@@ -2,11 +2,11 @@
 
   (general
     (links 69)
-    (no_connects 13)
+    (no_connects 12)
     (area 23.915 20.025 86.425001 77.825001)
     (thickness 1.6)
     (drawings 0)
-    (tracks 434)
+    (tracks 435)
     (zones 0)
     (modules 12)
     (nets 47)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.6)
+    (last_trace_width 0.3)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -140,7 +140,7 @@
 
   (net_class Default "Это класс цепей по умолчанию."
     (clearance 0.2)
-    (trace_width 0.6)
+    (trace_width 0.3)
     (via_dia 0.5)
     (via_drill 0.3)
     (uvia_dia 0.3)
@@ -1177,13 +1177,14 @@
   (segment (start 48.17 55.86) (end 50.18 53.86) (width 0.3) (layer F.Cu) (net 36) (tstamp 6616BBE9))
   (segment (start 41.85 55.87) (end 48.17 55.86) (width 0.3) (layer F.Cu) (net 36) (tstamp 6616BBE6))
   (segment (start 41.43 55.45) (end 41.85 55.87) (width 0.3) (layer F.Cu) (net 36) (tstamp 6616BBE4))
+  (segment (start 82 56.55) (end 70.47 56.57) (width 0.3) (layer F.Cu) (net 37) (status 400000))
   (segment (start 40.2 56.63) (end 51.48 56.63) (width 0.3) (layer F.Cu) (net 37) (tstamp 6616D6E9))
   (segment (start 58.06 55.91) (end 58.06 54.45) (width 0.6) (layer F.Cu) (net 37) (tstamp 6616BDAB))
   (segment (start 60.1 53.87) (end 61.64 53.85) (width 0.6) (layer F.Cu) (net 37) (tstamp 6616CB4C))
-  (segment (start 70.53 56.43) (end 81.89 56.44) (width 0.3) (layer F.Cu) (net 37) (tstamp 6616D80C))
   (segment (start 81.89 56.44) (end 82 56.55) (width 0.3) (layer F.Cu) (net 37) (tstamp 6616BEAD))
   (segment (start 59.99 53.85) (end 60.1 53.87) (width 0.6) (layer F.Cu) (net 37))
-  (segment (start 70.47 58.14) (end 70.465 54.1) (width 0.6) (layer F.Cu) (net 37) (tstamp 6616BEAB) (status 800000))
+  (segment (start 70.47 58.14) (end 70.47 56.570253) (width 0.6) (layer F.Cu) (net 37) (tstamp 6616BEAB))
+  (segment (start 70.47 56.570253) (end 70.465 54.1) (width 0.6) (layer F.Cu) (net 37) (tstamp 6616D8C9) (status 800000))
   (segment (start 64.43 58.12) (end 70.475 58.125) (width 0.6) (layer F.Cu) (net 37) (tstamp 6616BD52))
   (segment (start 62.28 55.96) (end 64.435 58.115) (width 0.6) (layer F.Cu) (net 37) (tstamp 6616BDB2))
   (segment (start 62.28 54.49) (end 62.28 55.96) (width 0.6) (layer F.Cu) (net 37) (tstamp 6616BDB1))
@@ -1203,10 +1204,10 @@
   (via (at 73.01 61.92) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 39))
   (segment (start 76.38 61.92) (end 73.01 61.92) (width 0.3) (layer B.Cu) (net 39) (tstamp 6616B97B))
   (segment (start 76.83 61.46) (end 76.38 61.92) (width 0.3) (layer B.Cu) (net 39) (tstamp 6616B975))
-  (segment (start 71.735 54.1) (end 71.735 55.125) (width 0.3) (layer F.Cu) (net 40))
+  (segment (start 71.735 54.1) (end 71.74 55.45) (width 0.3) (layer F.Cu) (net 40) (status 400000))
   (segment (start 80.3 53.85) (end 82 53.85) (width 0.3) (layer F.Cu) (net 40) (tstamp 6616BBA7))
   (segment (start 78.41 55.74) (end 80.3 53.85) (width 0.3) (layer F.Cu) (net 40) (tstamp 6616BBA0))
-  (segment (start 72.35 55.74) (end 78.41 55.74) (width 0.3) (layer F.Cu) (net 40) (tstamp 6616BB9D))
-  (segment (start 71.735 55.125) (end 72.35 55.74) (width 0.3) (layer F.Cu) (net 40) (tstamp 6616BB9B))
+  (segment (start 72.03 55.74) (end 78.41 55.74) (width 0.3) (layer F.Cu) (net 40) (tstamp 6616BB9D))
+  (segment (start 71.74 55.45) (end 72.03 55.74) (width 0.3) (layer F.Cu) (net 40) (tstamp 6616BB9B))
 
 )
