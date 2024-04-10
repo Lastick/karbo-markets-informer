@@ -775,9 +775,9 @@
   )
 
   (segment (start 37.625 54.1) (end 37.63 51.3) (width 0.3) (layer F.Cu) (net 1))
-  (segment (start 34.45 35.38) (end 34.45 33.98) (width 0.3) (layer F.Cu) (net 1) (tstamp 6616B431))
-  (segment (start 34.34 35.49) (end 34.45 35.38) (width 0.3) (layer F.Cu) (net 1) (tstamp 6616B425))
-  (segment (start 33.36 35.49) (end 34.34 35.49) (width 0.3) (layer F.Cu) (net 1) (tstamp 6616B424))
+  (segment (start 34.45 35.15) (end 34.45 33.98) (width 0.3) (layer F.Cu) (net 1) (tstamp 6616B431) (status 800000))
+  (segment (start 34.11 35.49) (end 34.45 35.15) (width 0.3) (layer F.Cu) (net 1) (tstamp 6616B425))
+  (segment (start 33.36 35.49) (end 34.11 35.49) (width 0.3) (layer F.Cu) (net 1) (tstamp 6616B424))
   (segment (start 31.12 37.73) (end 33.36 35.49) (width 0.3) (layer F.Cu) (net 1) (tstamp 6616B412))
   (segment (start 31.12 48.58) (end 31.12 37.73) (width 0.3) (layer F.Cu) (net 1) (tstamp 6616B3FD))
   (segment (start 32.92 50.41) (end 31.12 48.58) (width 0.3) (layer F.Cu) (net 1) (tstamp 6616B3F8))
